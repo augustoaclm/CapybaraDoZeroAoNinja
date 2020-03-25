@@ -9,7 +9,7 @@ describe 'botoes de radio radios', :radios do
     end
 
     it 'selecao por find e css ' do
-        #funciona com id
+        
         find('input[value=guardians').click
     end
 
