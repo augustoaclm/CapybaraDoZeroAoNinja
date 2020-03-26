@@ -23,7 +23,7 @@ describe 'upload de arquivos', :upload do
         #existe um problema com o firefox, esta funcionando smente no chrome
       attach_file('file-upload', @imagem)
       click_button 'Upload'
-        sleep 5
+        
      msg =  find('#new-image')
      expect(msg[:src]).to include 'imagem.jpg'
     end
