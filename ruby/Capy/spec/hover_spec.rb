@@ -12,6 +12,7 @@ describe 'mouse hover', :hover do
         
 
     end
+    #expressao regular com css img[alt^='Pantera'] (comeca = ^, Termina= $, Contem = *)
 
     it 'quando passo o ouse sobre o pantera negra' do
         card = find("img[alt='Pantera Negra']")
