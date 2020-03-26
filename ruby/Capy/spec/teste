@@ -1,0 +1,12 @@
+describe 'mouse hover', :hover do
+    before(:each) do
+        visit 'https://training-wheels-protocol.herokuapp.com/hovers'
+    end
+
+ 
+
+
+    after(:each) do
+        sleep 3
+    end
+end
